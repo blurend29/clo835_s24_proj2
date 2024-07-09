@@ -27,7 +27,7 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-**Run minikube tunnel to create a network route on my local machine to make Kubernetes LoadBalancer services (Note: this is not needed if deploying the application in the cloud):**
+**Run minikube tunnel to create a network route on my local machine to make Kubernetes LoadBalancer services accessible (Note: this is not needed if deploying the application in the cloud):**
 
 ```bash
 minikube tunnel
