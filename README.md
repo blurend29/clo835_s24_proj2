@@ -1,7 +1,7 @@
 
 # Deploy a Python Application on Kubernetes
 
-In this project/assignment, I deployed a Python web application that displays the current time in Toronto, Canada, using Kubernetes. The application is containerized using Docker, using NodePort to expose it on port 3030.
+In this project/assignment, I deployed a Python web application that displays the current time in Toronto, Canada, using Kubernetes. The application is containerized using Docker, and uses NodePort to expose it on port 3030.
 
 ## Steps used to complete the assignment/project
 
