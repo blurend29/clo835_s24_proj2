@@ -39,16 +39,10 @@ kubectl get services
 
 **Test the application:**
 
-**a. Find the internal ip**
+**Access the application using the external IP and the port.**
 
 ```bash
-kubectl get nodes -o wide
-```
-
-**b. Access the application using the internal IP and the NodePort.**
-
-```bash
-http://<node-internal-ip>:32030
+http://<external-ip>:3030
 ```
 
 ---
