@@ -8,15 +8,15 @@ In this project/assignment, I deployed a Python web application that displays th
 **Build the docker image:**
 
 ```bash
-docker build -t junjun290/time-service .
+docker build -t <dockerhub username>/time-service .
 ```
 
 **Tag the docker image and push it to Docker Hub:**
 
 ```bash
-docker tag junjun290/time-service junjun290/time-service:latest
+docker tag <dockerhub username>/time-service <dockerhub username>/time-service:latest
 
-docker push junjun290/time-service:latest
+docker push <dockerhub username>/time-service:latest
 ```
 
 **Deploy the application by applying the Kubernetes manifests:**
